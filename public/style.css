@@ -1,0 +1,49 @@
+h1{
+    color: maroon;
+}
+
+.post{
+    background-color: blanchedalmond;
+    line-height: 25px;
+}
+.user{
+ font-style: italic;
+ color: rgb(35, 178, 64);
+}
+.content{
+  color: black;
+}
+
+.post a {
+  text-decoration: none;
+}
+.button-see, .button-edit, .button-delete {
+  margin: 10px;
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.button-edit {
+  background-color: violet;
+}
+.button-see:hover {
+  background-color: darkblue;
+}
+.button-edit:hover {
+  background-color: darkorchid;
+}
+
+.button-delete{
+   background-color: red;
+ 
+}
+
+.post-actions{
+  display: inline-flex;
+}
+.post-actions form {
+  margin: 0; /* remove default form margin */
+}
